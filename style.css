@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap");
+* {
+    box-sizing: border-box;
+    font-family: "Rajdhani", sans-serif;
+}
+body,
+html {
+    padding: 0;
+    margin: 0;
+    background-color: #0099ff;
+    overflow-x: hidden;
+    text-align: center;
+}
+#units {
+    margin-bottom: 2em;
+}
+h1 {
+    font-size: 4em;
+}
+.group0,
+.group1,
+.group2 {
+    width: 400px;
+    height: 60px;
+}
+input,
+select {
+    font-size: 1em;
+}
+select,
+input {
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    text-align: center;
+}
+input:hover,
+select:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+input:focus,
+select:focus {
+    color: black;
+    background-color: white;
+}
+/* Width Media Queries */
+@media only screen and (max-width: 900px) {
+    h1 {
+        font-size: 3em;
+    }
+    .group0,
+    .group1,
+    .group2 {
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 2em;
+    }
+    .group0,
+    .group1,
+    .group2 {
+        width: 150px;
+    }
+}
+@media only screen and (max-width: 335px) {
+    h1 {
+        font-size: 1em;
+    }
+    .group0,
+    .group1,
+    .group2 {
+        width: 100px;
+    }
+}
+
+/* Height Media Queries */
+@media only screen and (max-height: 500px) {
+    h1 {
+        font-size: 3em;
+    }
+    .group0,
+    .group1,
+    .group2 {
+        height: 50px;
+    }
+    input,
+    select {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-height: 400px) {
+    h1 {
+        font-size: 2em;
+    }
+    .group0,
+    .group1,
+    .group2 {
+        height: 40px;
+    }
+    input,
+    select {
+        font-size: 0.7em;
+    }
+}

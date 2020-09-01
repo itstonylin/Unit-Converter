@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Unit Converter</title>
+        <!-- Jquery -->
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <!-- Custom css -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- Font Awesome Icons -->
+        <script src="https://kit.fontawesome.com/bbcc6aaf5b.js" crossorigin="anonymous"></script>
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="./Unit Convertor.png" />
+    </head>
+
+    <body>
+        <h1>Unit Converter</h1>
+        <!-- Select unit of measurement  -->
+        <select id="units" class="group0">
+            <option value="time" selected>Time</option>
+            <option value="length">Length</option>
+            <option value="speed">Speed</option>
+            <option value="mass">Mass</option>
+        </select>
+        <br />
+        <!-- enter values -->
+        <input id="input1" class="group1" type="number" placeholder="0" />
+        <i class="fas fa-arrows-alt-h"></i>
+        <input id="input2" class="group2" type="number" placeholder="0" />
+        <br />
+        <!-- left side options -->
+        <select class="group1" id="options1">
+            <option value="Millisecond">Millisecond</option>
+            <option value="Second">Second</option>
+            <option value="Minute">Minute</option>
+            <option value="Hour" selected>Hour</option>
+            <option value="Day">Day</option>
+            <option value="Week">Week</option>
+            <option value="Month">Month (30 days)</option>
+            <option value="Year">Year</option>
+            <option value="Decade">Decade</option>
+            <option value="Century">Century</option>
+            <option value="Millennium">Millennium</option>
+        </select>
+        <i class="fas fa-arrows-alt-h"></i>
+        <!-- right side options -->
+        <select class="group2" id="options2">
+            <option value="Millisecond">Millisecond</option>
+            <option value="Second">Second</option>
+            <option value="Minute" selected>Minute</option>
+            <option value="Hour">Hour</option>
+            <option value="Day">Day</option>
+            <option value="Week">Week</option>
+            <option value="Month">Month (30 days)</option>
+            <option value="Year">Year</option>
+            <option value="Decade">Decade</option>
+            <option value="Century">Century</option>
+            <option value="Millennium">Millennium</option>
+        </select>
+        <script src="main.js"></script>
+    </body>
+</html>
