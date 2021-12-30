@@ -6,7 +6,7 @@ This program allows users to convert numerical values between different units of
 
 ### **Example:**
 
-In time, you can convert between different units of time such as hours to minutes. Eg. 3 hours = 180 minutes.
+In time, one can convert between different units of time such as hours to minutes. Eg. 3 hours = 180 minutes.
 
 ### **Supported Conversions:**
 
